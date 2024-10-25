@@ -1,0 +1,12 @@
+/* src/App.css */
+
+/* Example: Override Bootstrap's Jumbotron to make it more modern */
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 4rem 2rem;
+  border-radius: 0.5rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

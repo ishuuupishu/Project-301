@@ -1,0 +1,60 @@
+/* src/components/styles/Navbar.css */
+
+/* Navbar background and link colors */
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  /* Navbar brand styling */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .navbar-brand:hover {
+    color: #0056b3;
+  }
+  
+  /* Navbar link styling */
+  .nav-link {
+    color: #333;
+    margin-right: 15px;
+    font-size: 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Active link styling */
+  .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Navbar toggler icon styling */
+  .navbar-toggler {
+    border-color: rgba(0, 123, 255, 0.5);
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  /* Responsive styling for collapsing navbar */
+  @media (max-width: 991.98px) {
+    .navbar-nav {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .navbar-collapse {
+      background-color: #f8f9fa;
+    }
+  
+    .nav-item {
+      margin-bottom: 10px;
+    }
+  }
+  

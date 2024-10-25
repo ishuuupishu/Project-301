@@ -1,0 +1,23 @@
+/* src/styles/Faculty.css */
+.faculty {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .faculty-card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .faculty-card img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
